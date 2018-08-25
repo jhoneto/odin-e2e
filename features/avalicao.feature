@@ -11,4 +11,3 @@ Feature: Avaliacao 360
     And vou para criacao de avaliacao
     And clico para criar uma nova avaliacao
     And preencho os dados da nova avalicao
-
