@@ -7,5 +7,4 @@ Feature: Avaliacao 360
   Scenario: Criar nova avaliacao
     Given Eu abro o site
     When faço login
-    And estou na dashboard
-
+    #And estou na dashboard
