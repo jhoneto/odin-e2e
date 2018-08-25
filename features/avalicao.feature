@@ -8,4 +8,7 @@ Feature: Avaliacao 360
     Given Eu abro o site
     When faço login
     And estou na dashboard
+    And vou para criacao de avaliacao
+    And clico para criar uma nova avaliacao
+    And preencho os dados da nova avalicao
 

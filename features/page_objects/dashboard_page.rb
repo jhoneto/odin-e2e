@@ -2,6 +2,6 @@ class DashboardPage < BasePage
   HEADER_USER = '#headerUser'
 
   def assert_is_dashboard_page
-    expect(page.all(HEADER_USER).first.visible?).to be true  
+    page.should have_css HEADER_USER
   end
 end

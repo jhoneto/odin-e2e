@@ -3,6 +3,7 @@ require 'selenium-webdriver'
 require 'capybara/cucumber'
 require 'byebug'
 require 'rspec/expectations'
+require 'faker'
 
 Capybara.default_driver = :selenium
 Capybara.app_host = 'https://odin-staging.virgo.atlantico.net.br/#/' #"https://democucumber.herokuapp.com"
