@@ -8,3 +8,4 @@ Feature: Edit the profile
     Given Eu abro o site
     When faço login
     And I click on my profile
+    And I click to add a new skill to my profile

@@ -9,5 +9,6 @@ class DashboardPage < BasePage
   def click_on_my_profile
     find(HEADER_USER).hover
     find(PROFILE_ITEM).click
+    sleep(200)
   end
 end
