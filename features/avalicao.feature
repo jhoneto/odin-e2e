@@ -1,13 +1,14 @@
+#language: pt
 @avaliacao360
-Feature: Avaliacao 360
-  Como usuario
-  Eu quero gerenciar avaliacoes
+Funcionalidade: Avaliação 360
+  Como responsável pelas avaliações
+  Eu quero gerenciar avaliações
 
   @nova_avaliacao
-  Scenario: Criar nova avaliacao
-    Given Eu abro o site
-    When faço login
-    And estou na dashboard
-    And vou para criacao de avaliacao
-    And clico para criar uma nova avaliacao
-    And preencho os dados da nova avalicao
+  Cenário: Criar nova avaliacao
+    Dado Eu abro o site
+    Quando faço login
+    E estou na dashboard
+    E vou para criacao de avaliacao
+    E clico para criar uma nova avaliacao
+    E preencho os dados da nova avalicao

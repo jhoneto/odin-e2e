@@ -3,7 +3,7 @@ class DashboardPage < BasePage
   PROFILE_ITEM = '#headerUser > ul > li:nth-child(5)'
 
   def assert_is_dashboard_page
-    page.should have_css HEADER_USER
+    expect(page).to have_css HEADER_USER
   end
 
   def click_on_my_profile
