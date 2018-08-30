@@ -30,9 +30,18 @@ $ bundle install
 $ cucumber
 ```
 ## Usando tags
-## Executando
 ```
 $ cucumber --tags @tag1 @tag2
 ```
+## Gerando relatório
+```
+cucumber --tags @avaliacao360 --format html --out reports.html
+```
 
 # Criando um pull-request
+
+Inicialmente execute o Rubocop para garantir a qualidade e padrão do código
+```
+rubocop
+```
+Remova as 'ofensas', caso necessário
