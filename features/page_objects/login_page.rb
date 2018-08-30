@@ -5,7 +5,7 @@ class LoginPage < BasePage
 
   def login_admin
     username('ricardo_souza')
-    password('DemetrioLago1!')
+    password('')
     submit
   end
 
