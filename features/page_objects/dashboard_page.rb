@@ -1,3 +1,4 @@
+# Pagina de dashboard
 class DashboardPage < BasePage
   HEADER_USER  = '#headerUser'
   PROFILE_ITEM = '#headerUser > ul > li:nth-child(5)'

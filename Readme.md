@@ -1,4 +1,4 @@
-# Template BDD
+# Preparando ambiente
 
 ## Instalando ChromeDriver
 ```
@@ -23,7 +23,16 @@ $ rvm install 2.4.1
 $ bundle install
 ```
 
+# Executando testes
+
 ## Executando
 ```
 $ cucumber
 ```
+## Usando tags
+## Executando
+```
+$ cucumber --tags @tag1 @tag2
+```
+
+# Criando um pull-request

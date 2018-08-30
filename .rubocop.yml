@@ -1,0 +1,10 @@
+# More details about rubocop configuration in https://github.com/rubocop-hq/rubocop/blob/master/config/default.yml
+
+AllCops:
+  Exclude:
+    - 'log/**/*'
+    - 'report/**/*'
+    - 'script/**/*'
+
+Style/MutableConstant:
+  Enabled: false

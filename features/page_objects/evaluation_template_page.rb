@@ -1,3 +1,4 @@
+# Pagina de lista de templates de avaliacao
 class EvaluationTemplatePage < BasePage
   PAGE_TITLE = 'Lista de Templates de Avaliação'
 

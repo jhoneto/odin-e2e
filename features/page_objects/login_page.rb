@@ -1,3 +1,4 @@
+# Pagina de login
 class LoginPage < BasePage
   USERNAME = 'userName'
   PASSWORD = 'password'

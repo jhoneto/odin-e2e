@@ -1,3 +1,4 @@
+# Pagina para criacao de nova avaliacao
 class EvaluationNewPage < BasePage
   PAGE_TITLE = 'Criar Avaliação'
   NAME = '#name'
@@ -19,5 +20,4 @@ class EvaluationNewPage < BasePage
   def assert_is_evaluation_new_page
     expect(page.find('h3', text: PAGE_TITLE).visible?).to eq true
   end
-
 end

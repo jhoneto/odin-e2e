@@ -6,7 +6,7 @@ require 'rspec/expectations'
 require 'faker'
 
 Capybara.default_driver = :selenium
-Capybara.app_host = 'https://odin-staging.virgo.atlantico.net.br/#/' #"https://democucumber.herokuapp.com"
+Capybara.app_host = 'https://odin-staging.virgo.atlantico.net.br/#/'
 Capybara.register_driver :selenium do |app|
   Capybara::Selenium::Driver.new app, browser: :chrome
 end
